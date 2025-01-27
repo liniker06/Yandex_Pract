@@ -1,5 +1,5 @@
 # Проектная работа
-https://github.com/NiktaSS/DEV/tree/second-sprint/learn_to_learn
+https://github.com/liniker06/Yandex_Pract/tree/second_sprint2
 
 # Научиться учиться
 
