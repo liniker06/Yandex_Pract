@@ -1,0 +1,1569 @@
+Index: sprint-1__startkit/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"ru\">\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <link rel=\"stylesheet\" href=\"styles/style.css\">\r\n  <title>Научиться учиться</title>\r\n</head>\r\n<body>\r\n  <div class=\"page\">\r\n    <header class=\"header\">\r\n      <img class=\"logo_place_header\" src=\"images/logo_place_header.svg\" alt=\"logo_place_header\">\r\n      <h1 class=\"h1_header\">Научиться учиться</h1>\r\n      <p class=\"header_subtitle\">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?\r\n      <a href=\"#\" class=\"header_link\">Узнать</a></p>\r\n      <img class=\"header_main_logo\" src=\"images/two_again.png\" alt=\"img_two_again\">\r\n      <div class=\"header_square-pic rotation\"></div>\r\n    </header>\r\n    <main class=\"content\">\r\n      <section class=\"description\">\r\n          <div class=\"two-columns\">\r\n            <h2 class=\"two-columns__brief\">Главные проблемы в обучении</h2>\r\n            <div class=\"two-columns__main-text\">\r\n              <p class=\"two-columns__paragraph\">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>\r\n              <p class=\"two-columns__paragraph\"><span class=\"two-columns__span-accent\">Вывод: </span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>\r\n              <p class=\"two-columns__paragraph\">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>\r\n          </div>\r\n        </div>\r\n      </section>\r\n\r\n      <section class=\"techniques\">\r\n        <h2 class=\"section-title\">Техники обучения</h2>\r\n        <p class=\"section-subtitle\">Пять практик от Барбары Оакли</p>\r\n\r\n        <div class=\"techniques__cards\">\r\n\r\n          <div class=\"techniques__cards__item\">\r\n            <img src=\"images/cards-attention.png\" class=\"techniques__cards__image\" alt=\"img_cards_attention\">\r\n            <h4 class=\"techniques__cards__title\">Два вида внимания</h4>\r\n            <p class=\"techniques__cards__description\">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>\r\n          </div>\r\n\r\n           <div class=\"techniques__cards__item\">\r\n            <img src=\"images/cards-recall.png\" class=\"techniques__cards__image\" alt=\"img_cards_recall\">\r\n            <h4 class=\"techniques__cards__title\">Recall</h4>\r\n            <p class=\"techniques__cards__description\">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>\r\n          </div>\r\n\r\n           <div class=\"techniques__cards__item\">\r\n            <img src=\"images/cards-interliving.png\" class=\"techniques__cards__image\" alt=\"img_cards_interliving\">\r\n            <h4 class=\"techniques__cards__title\">Интерливинг</h4>\r\n            <p class=\"techniques__cards__description\">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>\r\n          </div>\r\n\r\n           <div class=\"techniques__cards__item\">\r\n            <img src=\"images/cards-question.png\" class=\"techniques__cards__image\" alt=\"img_cards_question\">\r\n            <h4 class=\"techniques__cards__title\">Вопросы</h4>\r\n            <p class=\"techniques__cards__description\">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>\r\n          </div>\r\n\r\n           <div class=\"techniques__cards__item\">\r\n            <img src=\"images/cards-competence.png\" class=\"techniques__cards__image\" alt=\"img_cards_competence\">\r\n            <h4 class=\"techniques__cards__title\">Иллюзия компетентности</h4>\r\n            <p class=\"techniques__cards__description\">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>\r\n          </div>\r\n        </div>\r\n      </section>\r\n\r\n      <section class=\"video\">\r\n        <h1 class=\"section-title\">Видео на TED</h1>\r\n        <p class=\"section-subtitle\">Для тех, кто любит прокрастинировать</p>\r\n\r\n        <div class=\"video__iframes\">\r\n          <div class=\"video__iframes__iframe\">\r\n            <iframe type=\"text/html\" width=\"515\" height=\"316\" src=\"https://www.youtube.com/embed/arj7oStGLkU\" frameborder=\"0\" allowfullscreen></iframe>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"video__iframes\">\r\n          <div class=\"video__iframes__iframe\">\r\n            <iframe id=\"ytplayer1\" type=\"text/html\" width=\"515\" height=\"316\" src=\"https://www.youtube.com/embed/5MgBikgcWnY\" frameborder=\"0\" allowfullscreen></iframe>\r\n          </div>\r\n        </div>\r\n      </section>\r\n\r\n      <section class=\"oakley\">\r\n        <div class=\"two-columns\">\r\n          <div class=\"two-columns__brief\">\r\n            История Барбары Оакли.\r\n          </div>\r\n\r\n          <div class=\"two-columns__paragraph two-columns__main-text\">\r\n            С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.\r\n          </div>\r\n        </div>\r\n      </section>\r\n\r\n      <section class=\"feynman\">\r\n        <h1 class=\"feynman__title\"> Метод Фейнмана</h1>\r\n        <p class=\"feynman__subtitle\">Выучить и не забыть.</p>\r\n        <a href=\"#\" class=\"feynman__link\">Подробнее --></a>\r\n      </section>\r\n\r\n      <section class=\"digits\">\r\n        <h2 class=\"section-title\">Цифры и факты</h2>\r\n        <p class=\"section-subtitle\">Про учебу и мозг</p>\r\n\r\n        <ul class=\"table\">\r\n\r\n          <li class=\"table__cell\">\r\n            <h3 class=\"table__heading\">86 миллиардов</h3>\r\n            <p class=\"table__text\">Число нейронов в мозге человека</p>\r\n          </li>\r\n\r\n          <li class=\"table__cell\">\r\n            <h3 class=\"table__heading\">2.1 миллиарда</h3>\r\n            <p class=\"table__text\">Число нуждающихся в повышении квалификации</p>\r\n            <p class=\"table__text\">Всемирный Банк, 2017</p>\r\n          </li>\r\n\r\n          <li class=\"table__cell\">\r\n            <h3 class=\"table__heading\">1000 терабайт</h3>\r\n            <p class=\"table__text\">Объём памяти человека</p>\r\n          </li>\r\n\r\n          <li class=\"table__cell\">\r\n            <h3 class=\"table__heading\">500 триллионов</h3>\r\n            <p class=\"table__text\">Число ответственных за обучение нервных синапсов у взрослого человека</p>\r\n          </li>\r\n\r\n          <li class=\"table__cell\">\r\n            <h3 class=\"table__heading\">420 миллионов</h3>\r\n            <p class=\"table__text\">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>\r\n            <p class=\"table__text\">Всемирный Банк, 2017</p>\r\n          </li>\r\n\r\n          <li class=\"table__cell\">\r\n            <h3 class=\"table__heading\">17–20 лет</h3>\r\n            <p class=\"table__text\">Пик обучаемости</p>\r\n          </li>\r\n\r\n          <li class=\"table__cell\">\r\n            <h3 class=\"table__heading\">1885 год</h3>\r\n            <p class=\"table__text\">Открытие кривой забывания</p>\r\n          </li>\r\n\r\n          <li class=\"table__cell\">\r\n            <h3 class=\"table__heading\">1889 год</h3>\r\n            <p class=\"table__text\">Открытие условного рефлекса</p>\r\n          </li>\r\n        </ul>\r\n      </section>\r\n\r\n      <section class=\"khan\">\r\n        <div class=\"khan__container\">\r\n          <p class=\"khan__autor\">Салман Хан</p>\r\n          <h1 class=\"khan__title\">Весь мир — школа</h1>\r\n          <p class=\"khan__quote\">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>\r\n          <p class=\"khan__quote-autor\">Джордж Лукас</p>\r\n          <p class=\"khan__quote-autor-subline\">Кинорежиссер, продюсер</p>\r\n          <div class=\"khan__book-container\">\r\n            <img src=\"images/khan-book.jpg\" class=\"khan__book-pic\">\r\n            <link class=\"khan__buy-link\">Купить книгу --></link>\r\n          </div>\r\n        </div>\r\n      </section>\r\n\r\n      <section class=\"kaufman\">\r\n        <h1 class=\"section-title section-title_theme_dark\">Принципы обучения</h1>\r\n        <p class=\"section-subtitle section-subtitle_theme_dark\">от Джоша Кауфмана</p>\r\n\r\n        <ul class=\"table table_theme_dark\">\r\n\r\n        <li class=\"table__cell\">\r\n          <h4 class=\"table__heading\">1</h4>\r\n          <p class=\"table__text\">Выберите привлекательный проект.</p>\r\n        </li>\r\n\r\n        <li class=\"table__cell\">\r\n          <h4 class=\"table__heading\">2</h4>\r\n          <p class=\"table__text\">Сосредоточьтесь на каком-то одном навыке.</p>\r\n        </li>\r\n\r\n        <li class=\"table__cell\">\r\n          <h4 class=\"table__heading\">3</h4>\r\n          <p class=\"table__text\">Определите целевой уровень мастерства.</p>\r\n        </li>\r\n\r\n        <li class=\"table__cell\">\r\n          <h4 class=\"table__heading\">4</h4>\r\n          <p class=\"table__text\">Разбейте навык на элементы.</p>\r\n        </li>\r\n\r\n        <li class=\"table__cell\">\r\n          <h4 class=\"table__heading\">5</h4>\r\n          <p class=\"table__text\">Приготовьте всё необходимое для занятий.</p>\r\n        </li>\r\n\r\n        <li class=\"table__cell\">\r\n          <h4 class=\"table__heading\">6</h4>\r\n          <p class=\"table__text\">Устраните препятствия для занятий.</p>\r\n        </li>\r\n\r\n        <li class=\"table__cell\">\r\n          <h4 class=\"table__heading\">7</h4>\r\n          <p class=\"table__text\">Выделите специальное время для занятий.</p>\r\n        </li>\r\n\r\n        <li class=\"table__cell\">\r\n          <h4 class=\"table__heading\">8</h4>\r\n          <p class=\"table__text\">Создайте быстрые петли обратной связи.</p>\r\n        </li>\r\n\r\n        <li class=\"table__cell\">\r\n          <h4 class=\"table__heading\">9</h4>\r\n          <p class=\"table__text\">Занимайтесь по расписанию, короткими интенсивными\r\n            интервалами.</p>\r\n        </li>\r\n\r\n        <li class=\"table__cell\">\r\n          <h4 class=\"table__heading\">10</h4>\r\n          <p class=\"table__text\">Уделяйте внимание количеству и скорости.</p>\r\n        </li>\r\n      </ul>\r\n\r\n      <img class=\"kaufman__triangle rotation\" src=\"images/kaufman-triangle.svg\" alt=\"triangle\">\r\n      </section>\r\n\r\n      <section class=\"resources\">\r\n        <h1 class=\"section-title\">Полезные ресурсы</h1>\r\n        <p class=\"section-subtitle\">Больше материалов о техниках и лайфхаках обучения</p>\r\n        <div class=\"resources__logo-zone\">\r\n          <a href=\"#\" class=\"resources__link\">\r\n            <img src=\"logo/resources-arzamas.svg\" class=\"resources__logo\" alt=\"Логотип Арзамас\">\r\n          </a>\r\n\r\n          <a href=\"#\" class=\"resources__link\">\r\n            <img src=\"logo/resources-n1.svg\" class=\"resources__logo\" alt=\"Логотип Н+1\">\r\n          </a>\r\n\r\n          <a href=\"#\" class=\"resources__link\">\r\n            <img src=\"logo/resources-strelka.svg\" class=\"resources__logo\" alt=\"Логотип Стрелка\">\r\n          </a>\r\n\r\n          <a href=\"#\" class=\"resources__link\">\r\n            <img src=\"logo/resources-polka.svg\" class=\"resources__logo\" alt=\"Логотип Полка\">\r\n          </a>\r\n        </div>\r\n      </section>\r\n    </main>\r\n    <footer class=\"footer\">\r\n    <div class=\"footer__columns\">\r\n      <div class=\"footer__column footer__column_content_copyright\">\r\n        <img class=\"logo logo_place_footer\" src=\"./images/logo_place_footer.svg\" alt=\"Логотип Яндекс\">\r\n        <p class=\"footer__author\">&copy;Алмаз Айратович</p>\r\n      </div>\r\n      <div class=\"footer__column footer__column_content_info\">\r\n        <h2 class=\"footer__column-heading\">О практикуме</h2>\r\n        <ul class=\"footer__column-links\">\r\n          <li><a class=\"footer__column-link\" href=\"#\">Главная</a></li>\r\n          <li><a class=\"footer__column-link\" href=\"#\">Концепция</a></li>\r\n          <li><a class=\"footer__column-link\" href=\"#\">Наставники</a></li>\r\n        </ul>\r\n      </div>\r\n      <div class=\"footer__column footer__column_content_social\">\r\n        <h2 class=\"footer__column-heading\">Соцсети</h2>\r\n        <ul class=\"footer__column-links\">\r\n          <li><a class=\"footer__column-link\" href=\"https://www.tiktok.com/\" target=\"_blank\"><img\r\n            class=\"footer__social-icon\"\r\n            src=\"images/tiktok_color_white.svg\"\r\n            alt=\"Фейсбук\">Tiktok</a></li>\r\n          <li><a class=\"footer__column-link\" href=\"https://vk.com\" target=\"_blank\"><img class=\"footer__social-icon\"\r\n                                                                                        src=\"./images/vk_color_white.svg\"\r\n                                                                                        alt=\"ВКонтакте\">ВКонтакте</a>\r\n          </li>\r\n          <li><a class=\"footer__column-link\" href=\"https://www.youtube.com/\" target=\"_blank\">\r\n            <img class=\"footer__social-icon\" src=\"./images/youtube_color_white.svg\" alt=\"Инстаграм\">Youtube</a></li>\r\n        </ul>\r\n      </div>\r\n    </div>\r\n  </footer>\r\n  </div>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sprint-1__startkit/index.html b/sprint-1__startkit/index.html
+--- a/sprint-1__startkit/index.html	
++++ b/sprint-1__startkit/index.html	
+@@ -10,11 +10,11 @@
+   <div class="page">
+     <header class="header">
+       <img class="logo_place_header" src="images/logo_place_header.svg" alt="logo_place_header">
+-      <h1 class="h1_header">Научиться учиться</h1>
++      <h1 class="h1__header">Научиться учиться</h1>
+       <p class="header_subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+-      <a href="#" class="header_link">Узнать</a></p>
+-      <img class="header_main_logo" src="images/two_again.png" alt="img_two_again">
+-      <div class="header_square-pic rotation"></div>
++      <a href="#" class="header__link">Узнать</a></p>
++      <img class="header__main_logo" src="images/two_again.png" alt="img_two_again">
++      <div class="header__square-pic rotation"></div>
+     </header>
+     <main class="content">
+       <section class="description">
+Index: sprint-1__startkit/styles/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sprint-1__startkit/styles/style.css b/sprint-1__startkit/styles/style.css
+deleted file mode 100644
+--- a/sprint-1__startkit/styles/style.css	
++++ /dev/null	
+@@ -1,469 +0,0 @@
+-.page {
+-  min-width: 1100px;
+-  max-width: 1600px;
+-  margin: 0 auto;
+-  font-family: 'Helvetica Neue', Arial, sans-serif;
+-}
+-
+-.header {
+-  display: flex;
+-  align-items: center;
+-  height: 100vh;
+-  min-height: 600px;
+-  max-height: 756px;
+-  position: relative;
+-  background-color: #F2F2F2;
+-  overflow: hidden;
+-
+-}
+-
+-.table__cell_theme_dark {
+-  width: 200px;
+-  color: white;
+-  margin-right: 0;
+-  margin-top: 80px;
+-}
+-
+-.logo_place_header {
+-  position: absolute;
+-  width: 228px;
+-  height: 32px;
+-  left: 64px;
+-  top: 30px;
+-  order: 1
+-}
+-
+-.h1_header {
+-  width: 730px;
+-  margin: 0 0 0 64px;
+-  line-height: 96px;
+-  font-size: 102px;
+-  z-index: 2;
+-}
+-.header_square-pic {
+-  position: absolute;
+-  width: 568px;
+-  height: 568px;
+-  background-color: #2f80ed;
+-  right: 0;
+-  top: 64px;
+-}
+-
+-.header_main_logo {
+-  position: absolute;
+-  width:765px;
+-  height: 608px;
+-  bottom: 0;
+-  right: 0;
+-  z-index:1
+-}
+-
+-.header_subtitle {
+-  position: absolute;
+-  width: 388px;
+-  font-size: 18px;
+-  height: 25px;
+-  bottom: 30px;
+-  left: 64px
+-}
+-
+-.header_link {
+-  text-decoration: none;
+-  color: #2F80ED;
+-  opacity: 1;
+-  transition: opacity .2s ease;
+-}
+-.header_link:hover {
+-  opacity: .5;
+-}
+-
+-.description {
+-  padding: 100px 0;
+-}
+-
+-.two-columns {
+-  display: flex;
+-  width: 80%;
+-  margin: 100px auto;
+-  justify-content: space-between;
+-}
+-
+-.two-columns__brief {
+-  width: 175px;
+-  line-height: 1.2;
+-  color: #2F80ED;
+-  font-size: 18px;
+-  font-weight: normal;
+-
+-}
+-
+-.two-columns__main-text {
+-  width: 80%;
+-  min-width: 784px;
+-  padding-left: 100px;
+-}
+-
+-.two-columns__paragraph {
+-  margin-bottom: 30px;
+-  line-height: 34px;
+-  font-size: 24px;
+-  font-weight:normal;
+-}
+-
+-.two-columns__paragraph:nth-child(last) {
+-  margin: 0;
+-}
+-
+-.two-columns__span-accent {
+-  margin: 0;
+-  font-weight: bold;
+-}
+-
+-.digits {
+-  display: flex;
+-  margin-top: 100px;
+-  margin-bottom: 100px;
+-  align-items: center;
+-  flex-direction: column;
+-}
+-
+-.table {
+-  width: 1100px;
+-  display: flex;
+-  justify-content: space-between;
+-  flex-wrap: wrap;
+-}
+-
+-.table__cell {
+-  width: 250px;
+-  min-width: 250px;
+-  list-style-type: none;
+-  margin-top: 60px;
+-}
+-
+-.section-title {
+-  margin:0;
+-  line-height: 1.15;
+-  font-size: 60px;
+-  font-weight: 600;
+-  text-align: center;
+-}
+-
+-.section-subtitle {
+-  margin:0;
+-  line-height: 34px;
+-  font-size: 24px;
+-  font-weight: normal;
+-  margin: 20px 0 0 0;
+-  text-align: center;
+-}
+-
+-.table__heading {
+-  margin: 0;
+-  line-height: 1.15;
+-  font-size: 24px;
+-  font-weight: 600;
+-}
+-
+-.table__text {
+-  margin-top: 20px;
+-  line-height: 1.2;
+-  font-size: 18px;
+-  font-weight: normal;
+-}
+-
+-
+-
+-.feynman {
+-  display: flex;
+-  align-items: center;
+-  flex-direction: column;
+-  height: 890px;
+-  position: relative;
+-  background-image : url("../images/feynman.png");
+-  background-repeat: no-repeat;
+-  background-position: bottom left;
+-  background-size: 867px 637px;
+-  background-color: #f2f2f2
+-}
+-
+-.feynman__title {
+-  width: 648px;
+-  line-height: 1.15;
+-  font-size: 120px;
+-  font-weight: 600;
+-  text-align: center;
+-  margin: 0;
+-  padding-top: 100px
+-}
+-
+-.feynman__subtitle {
+-  margin-top: 70px;
+-  line-height: 51px;
+-  font-size: 36px;
+-
+-}
+-
+-.feynman__link {
+-  position: absolute;
+-  top: 50%;
+-  right: 48px;
+-  line-height: 51px;
+-  font-size: 36px;
+-  text-decoration: none;
+-  margin:0
+-}
+-
+-.kaufman {
+-  display: flex;
+-  flex-direction: column;
+-  align-items: center;
+-  padding: 90px 0;
+-  background-color: #1F1F1F;
+-  position: relative;
+-  overflow: hidden;
+-}
+-
+-.kaufman__triangle {
+-  height: 877px;
+-  width: 877px;
+-  position: absolute;
+-  top: 0;
+-  right: -210px;
+-  transform-origin: 511px 376px;
+-  animation: triangle-rotation 20s linear infinite;
+-}
+-
+-.section-title_theme_dark {
+-  color: white;
+-  z-index: 1;
+-}
+-
+-.section-subtitle_theme_dark {
+-  color: white;
+-  z-index: 1;
+-}
+-
+-.table_theme_dark .table__cell {
+-  min-width: 200px;
+-  width: 200px;
+-  color: white;
+-  margin-top: 80px;
+-  margin-right: 0;
+-  z-index: 1;
+-}
+-
+-.footer {
+-  background-color: #1F1F1F;
+-}
+-
+-.footer {
+-  display: flex;
+-  justify-content: center;
+-  min-height: 350px;
+-  padding: 60px 0 40px 0;
+-  background-color: #1F1F1F;
+-  box-sizing: border-box;
+-}
+-
+-.footer__columns {
+-  display: flex;
+-  justify-content: space-between;
+-  width: 90%;
+-}
+-
+-.footer__column {
+-  display: flex;
+-  flex-direction: column;
+-}
+-
+-.footer__column_content_copyright {
+-  display: flex;
+-  flex-direction: column;
+-  justify-content: space-between;
+-  flex-basis: 711px;
+-}
+-
+-.footer__author {
+-  margin: 0 0 18px 0;
+-  line-height: 25px;
+-  font-size: 18px;
+-  color: white;
+-
+-}
+-
+-.footer__column-heading {
+-  margin: 0 0 20px 0;
+-  line-height: 30px;
+-  font-size: 18px;
+-  font-weight: bold;
+-  color: white;
+-}
+-
+-.footer__column-links {
+-  width: 100%;
+-  padding: 0;
+-  list-style-type: none;
+-}
+-
+-.footer__column-link {
+-  margin: 0;
+-  line-height: 30px;
+-  font-size: 18px;
+-  color: white;
+-  text-decoration: none;
+-  opacity: 1;
+-  transition: opacity .2s ease;
+-}
+-
+-.footer__column-link:hover {
+-  opacity: .5;
+-}
+-
+-
+-.footer__social-icon {
+-  height: 16px;
+-  width: 16px;
+-  margin-right: 5px;
+-}
+-
+-.techniques {
+-  width: 80%;
+-  margin: 0 auto 0 auto
+-}
+-.techniques__cards {
+-  display: flex;
+-  flex-wrap: wrap;
+-  width: 920px;
+-  margin: 0 auto 0 auto;
+-}
+-.techniques__cards__item {
+-  width:240px;
+-  margin-top: 60px;
+-  margin-right: 100px;
+-}
+-
+-.techniques__cards__item:nth-child(3n) {
+-    margin-right: 0;
+-}
+-
+-.techniques__cards__image {
+-  width: 160px;
+-  height: 160px;
+-  margin: 0px 40px 0px 40px;
+-  border-radius: 50%;
+-}
+-.techniques__cards__title {
+-  margin-top: 43px;
+-  margin-bottom: 16px;
+-  line-height: 1.15;
+-  font-size: 24px;
+-  font-weight: 600;
+-  text-align: center;
+-}
+-.techniques__cards__description {
+-  line-height: 23px;
+-  font-size: 18px;
+-  font-weight: normal;
+-  text-align: center;
+-  margin: 16px 0 0 0;
+-}
+-
+-
+-.video {
+-  margin-top:100px
+-}
+-.video__iframes {
+-	display: flex;
+-	width: 1050px;
+-	margin: 0 auto 0 auto;
+-	justify-content: space-between;
+-	position: relative;
+-	top: 50px;
+-}
+-
+-.khan {
+-  width: 80%;
+-  margin: 100px auto 0 auto;
+-  margin-top: 100px;
+-}
+-.khan__container {
+-  display: flex;
+-	flex-direction: column;
+-	width: 80%;
+-	margin: 105px auto 0 auto;
+-}
+-.khan__autor {
+-  line-height: 42px;
+-  font-size: 30px;
+-  font-weight: normal;
+-  margin:0
+-}
+-.khan__title {
+-  line-height: 1.15;
+-  font-size: 60px;
+-  font-weight: 600;
+-  margin-bottom: 0
+-}
+-.khan__quote {
+-  margin-top: 0px;
+-  width: 790px;
+-  line-height: 34px;
+-  font-size: 24px;
+-  font-weight: normal;
+-  margin: 50px 0 0 0;
+-}
+-.khan__quote-autor {
+-  margin-top: 36px;
+-  line-height: 1.15;
+-  font-size: 24px;
+-  font-weight: 600;
+-  margin-bottom:10px
+-}
+-.khan__quote-autor-subline {
+-  line-height: 1.15;
+-  font-size: 24px;
+-  font-weight: normal;
+-  margin-top: 0px;
+-  margin-bottom: 0px;
+-}
+-.khan__book-container {
+-  padding-top: 68px;
+-  display: flex;
+-}
+-.khan__book-pic {
+-  width: 608px;
+-  height: 620px;
+-}
+-.khan__buy-link {
+-  padding-left: 48px;
+-  line-height: 42px;
+-  font-size: 30px;
+-  font-weight: normal;
+-  color: #2f80ed
+-}
+-
+-@keyframes rotate {
+-	from {
+-		transform: rotate(360deg);
+-	}
+-}
+-
+-.rotation {
+-	animation: rotate 20s linear infinite;
+-}
+-
+-.resources {
+-  padding-top: 100px
+-}
+-.resources__logo-zone {
+-	width: 1100px;
+-	margin: 80px auto 217px auto;
+-}
+-.resources__link {
+-	text-decoration: none;
+-}
+-.resources__logo {
+-	width: 270px;
+-	height: 38px;
+-}
+Index: sprint-1__startkit/blocks/resources/resources.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/resources/resources.css b/sprint-1__startkit/blocks/resources/resources.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/resources/resources.css	
+@@ -0,0 +1,4 @@
++.resources {
++  padding-top: 100px
++}
++
+Index: sprint-1__startkit/blocks/resources/__logo/resources__logo.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/resources/__logo/resources__logo.css b/sprint-1__startkit/blocks/resources/__logo/resources__logo.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/resources/__logo/resources__logo.css	
+@@ -0,0 +1,4 @@
++.resources__logo {
++	width: 270px;
++	height: 38px;
++}
+Index: sprint-1__startkit/blocks/khan/__buy-link/khan__buy-link.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/khan/__buy-link/khan__buy-link.css b/sprint-1__startkit/blocks/khan/__buy-link/khan__buy-link.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/khan/__buy-link/khan__buy-link.css	
+@@ -0,0 +1,7 @@
++.khan__buy-link {
++  padding-left: 48px;
++  line-height: 42px;
++  font-size: 30px;
++  font-weight: normal;
++  color: #2f80ed
++}
+Index: sprint-1__startkit/blocks/khan/__book-pic/khan__book-pic.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/khan/__book-pic/khan__book-pic.css b/sprint-1__startkit/blocks/khan/__book-pic/khan__book-pic.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/khan/__book-pic/khan__book-pic.css	
+@@ -0,0 +1,4 @@
++.khan__book-pic {
++  width: 608px;
++  height: 620px;
++}
+Index: sprint-1__startkit/blocks/khan/__book-container/khan__book-container.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/khan/__book-container/khan__book-container.css b/sprint-1__startkit/blocks/khan/__book-container/khan__book-container.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/khan/__book-container/khan__book-container.css	
+@@ -0,0 +1,4 @@
++.khan__book-container {
++  padding-top: 68px;
++  display: flex;
++}
+Index: sprint-1__startkit/blocks/khan/__quote-autor-subline/khan__quote-autor-subline.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/khan/__quote-autor-subline/khan__quote-autor-subline.css b/sprint-1__startkit/blocks/khan/__quote-autor-subline/khan__quote-autor-subline.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/khan/__quote-autor-subline/khan__quote-autor-subline.css	
+@@ -0,0 +1,7 @@
++.khan__quote-autor-subline {
++  line-height: 1.15;
++  font-size: 24px;
++  font-weight: normal;
++  margin-top: 0px;
++  margin-bottom: 0px;
++}
+Index: sprint-1__startkit/blocks/khan/__quote-autor/khan__quote-autor.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/khan/__quote-autor/khan__quote-autor.css b/sprint-1__startkit/blocks/khan/__quote-autor/khan__quote-autor.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/khan/__quote-autor/khan__quote-autor.css	
+@@ -0,0 +1,7 @@
++.khan__quote-autor {
++  margin-top: 36px;
++  line-height: 1.15;
++  font-size: 24px;
++  font-weight: 600;
++  margin-bottom:10px
++}
+Index: sprint-1__startkit/blocks/khan/__quote/khan__quote.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/khan/__quote/khan__quote.css b/sprint-1__startkit/blocks/khan/__quote/khan__quote.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/khan/__quote/khan__quote.css	
+@@ -0,0 +1,8 @@
++.khan__quote {
++  margin-top: 0px;
++  width: 790px;
++  line-height: 34px;
++  font-size: 24px;
++  font-weight: normal;
++  margin: 50px 0 0 0;
++}
+Index: sprint-1__startkit/blocks/khan/__title/khan__title.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/khan/__title/khan__title.css b/sprint-1__startkit/blocks/khan/__title/khan__title.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/khan/__title/khan__title.css	
+@@ -0,0 +1,6 @@
++.khan__title {
++  line-height: 1.15;
++  font-size: 60px;
++  font-weight: 600;
++  margin-bottom: 0
++}
+Index: sprint-1__startkit/blocks/khan/__autor/khan__autor.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/khan/__autor/khan__autor.css b/sprint-1__startkit/blocks/khan/__autor/khan__autor.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/khan/__autor/khan__autor.css	
+@@ -0,0 +1,6 @@
++.khan__autor {
++  line-height: 42px;
++  font-size: 30px;
++  font-weight: normal;
++  margin:0
++}
+Index: sprint-1__startkit/blocks/khan/khan.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/khan/khan.css b/sprint-1__startkit/blocks/khan/khan.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/khan/khan.css	
+@@ -0,0 +1,5 @@
++.khan {
++  width: 80%;
++  margin: 100px auto 0 auto;
++  margin-top: 100px;
++}
+Index: sprint-1__startkit/blocks/khan/__container/khan__container.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/khan/__container/khan__container.css b/sprint-1__startkit/blocks/khan/__container/khan__container.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/khan/__container/khan__container.css	
+@@ -0,0 +1,6 @@
++.khan__container {
++  display: flex;
++	flex-direction: column;
++	width: 80%;
++	margin: 105px auto 0 auto;
++}
+Index: sprint-1__startkit/blocks/video/__iframes/video__iframes.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/video/__iframes/video__iframes.css b/sprint-1__startkit/blocks/video/__iframes/video__iframes.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/video/__iframes/video__iframes.css	
+@@ -0,0 +1,8 @@
++.video__iframes {
++	display: flex;
++	width: 1050px;
++	margin: 0 auto 0 auto;
++	justify-content: space-between;
++	position: relative;
++	top: 50px;
++}
+Index: sprint-1__startkit/blocks/video/video.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/video/video.css b/sprint-1__startkit/blocks/video/video.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/video/video.css	
+@@ -0,0 +1,3 @@
++.video {
++  margin-top:100px
++}
+Index: sprint-1__startkit/blocks/techniques/__cards/__description/techniques__cards__description.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/techniques/__cards/__description/techniques__cards__description.css b/sprint-1__startkit/blocks/techniques/__cards/__description/techniques__cards__description.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/techniques/__cards/__description/techniques__cards__description.css	
+@@ -0,0 +1,7 @@
++.techniques__cards__description {
++  line-height: 23px;
++  font-size: 18px;
++  font-weight: normal;
++  text-align: center;
++  margin: 16px 0 0 0;
++}
+Index: sprint-1__startkit/blocks/techniques/__cards/__title/techniques__cards__title.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/techniques/__cards/__title/techniques__cards__title.css b/sprint-1__startkit/blocks/techniques/__cards/__title/techniques__cards__title.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/techniques/__cards/__title/techniques__cards__title.css	
+@@ -0,0 +1,8 @@
++.techniques__cards__title {
++  margin-top: 43px;
++  margin-bottom: 16px;
++  line-height: 1.15;
++  font-size: 24px;
++  font-weight: 600;
++  text-align: center;
++}
+Index: sprint-1__startkit/blocks/techniques/__cards/__image/techniques__cards__image.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/techniques/__cards/__image/techniques__cards__image.css b/sprint-1__startkit/blocks/techniques/__cards/__image/techniques__cards__image.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/techniques/__cards/__image/techniques__cards__image.css	
+@@ -0,0 +1,6 @@
++.techniques__cards__image {
++  width: 160px;
++  height: 160px;
++  margin: 0px 40px 0px 40px;
++  border-radius: 50%;
++}
+Index: sprint-1__startkit/blocks/techniques/__cards/__item/techniques__cards__item.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/techniques/__cards/__item/techniques__cards__item.css b/sprint-1__startkit/blocks/techniques/__cards/__item/techniques__cards__item.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/techniques/__cards/__item/techniques__cards__item.css	
+@@ -0,0 +1,9 @@
++.techniques__cards__item {
++  width:240px;
++  margin-top: 60px;
++  margin-right: 100px;
++}
++
++.techniques__cards__item:nth-child(3n) {
++    margin-right: 0;
++}
+Index: sprint-1__startkit/blocks/techniques/techniques.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/techniques/techniques.css b/sprint-1__startkit/blocks/techniques/techniques.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/techniques/techniques.css	
+@@ -0,0 +1,4 @@
++.techniques {
++  width: 80%;
++  margin: 0 auto 0 auto
++}
+Index: sprint-1__startkit/blocks/techniques/__cards/technoques__cards.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/techniques/__cards/technoques__cards.css b/sprint-1__startkit/blocks/techniques/__cards/technoques__cards.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/techniques/__cards/technoques__cards.css	
+@@ -0,0 +1,6 @@
++.techniques__cards {
++  display: flex;
++  flex-wrap: wrap;
++  width: 920px;
++  margin: 0 auto 0 auto;
++}
+Index: sprint-1__startkit/blocks/footer/__social-icon/footer__social-icon.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/footer/__social-icon/footer__social-icon.css b/sprint-1__startkit/blocks/footer/__social-icon/footer__social-icon.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/footer/__social-icon/footer__social-icon.css	
+@@ -0,0 +1,5 @@
++.footer__social-icon {
++  height: 16px;
++  width: 16px;
++  margin-right: 5px;
++}
+Index: sprint-1__startkit/blocks/footer/__column/__column-link/footer__column-link.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/footer/__column/__column-link/footer__column-link.css b/sprint-1__startkit/blocks/footer/__column/__column-link/footer__column-link.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/footer/__column/__column-link/footer__column-link.css	
+@@ -0,0 +1,13 @@
++.footer__column-link {
++  margin: 0;
++  line-height: 30px;
++  font-size: 18px;
++  color: white;
++  text-decoration: none;
++  opacity: 1;
++  transition: opacity .2s ease;
++}
++
++.footer__column-link:hover {
++  opacity: .5;
++}
+Index: sprint-1__startkit/blocks/footer/__column/__column-links/footer__column-links.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/footer/__column/__column-links/footer__column-links.css b/sprint-1__startkit/blocks/footer/__column/__column-links/footer__column-links.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/footer/__column/__column-links/footer__column-links.css	
+@@ -0,0 +1,5 @@
++.footer__column-links {
++  width: 100%;
++  padding: 0;
++  list-style-type: none;
++}
+Index: sprint-1__startkit/blocks/footer/__column/__column-heading/footer__column-heading.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/footer/__column/__column-heading/footer__column-heading.css b/sprint-1__startkit/blocks/footer/__column/__column-heading/footer__column-heading.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/footer/__column/__column-heading/footer__column-heading.css	
+@@ -0,0 +1,7 @@
++.footer__column-heading {
++  margin: 0 0 20px 0;
++  line-height: 30px;
++  font-size: 18px;
++  font-weight: bold;
++  color: white;
++}
+Index: sprint-1__startkit/blocks/footer/__author/footer__author.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/footer/__author/footer__author.css b/sprint-1__startkit/blocks/footer/__author/footer__author.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/footer/__author/footer__author.css	
+@@ -0,0 +1,6 @@
++.footer__author {
++  margin: 0 0 18px 0;
++  line-height: 25px;
++  font-size: 18px;
++  color: white;
++}
+Index: sprint-1__startkit/blocks/footer/__column/__column_content_copyright/footer__column_content_copyright.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/footer/__column/__column_content_copyright/footer__column_content_copyright.css b/sprint-1__startkit/blocks/footer/__column/__column_content_copyright/footer__column_content_copyright.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/footer/__column/__column_content_copyright/footer__column_content_copyright.css	
+@@ -0,0 +1,6 @@
++.footer__column_content_copyright {
++  display: flex;
++  flex-direction: column;
++  justify-content: space-between;
++  flex-basis: 711px;
++}
+Index: sprint-1__startkit/blocks/footer/__column/footer__column.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/footer/__column/footer__column.css b/sprint-1__startkit/blocks/footer/__column/footer__column.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/footer/__column/footer__column.css	
+@@ -0,0 +1,4 @@
++.footer__column {
++  display: flex;
++  flex-direction: column;
++}
+Index: sprint-1__startkit/blocks/footer/footer.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/footer/footer.css b/sprint-1__startkit/blocks/footer/footer.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/footer/footer.css	
+@@ -0,0 +1,8 @@
++.footer {
++  display: flex;
++  justify-content: center;
++  min-height: 350px;
++  padding: 60px 0 40px 0;
++  background-color: #1F1F1F;
++  box-sizing: border-box;
++}
+Index: sprint-1__startkit/blocks/footer/__columns/footer__columns.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/footer/__columns/footer__columns.css b/sprint-1__startkit/blocks/footer/__columns/footer__columns.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/footer/__columns/footer__columns.css	
+@@ -0,0 +1,5 @@
++.footer__columns {
++  display: flex;
++  justify-content: space-between;
++  width: 90%;
++}
+Index: sprint-1__startkit/blocks/kaufman/kaufman.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/kaufman/kaufman.css b/sprint-1__startkit/blocks/kaufman/kaufman.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/kaufman/kaufman.css	
+@@ -0,0 +1,9 @@
++.kaufman {
++  display: flex;
++  flex-direction: column;
++  align-items: center;
++  padding: 90px 0;
++  background-color: #1F1F1F;
++  position: relative;
++  overflow: hidden;
++}
+Index: sprint-1__startkit/blocks/kaufman/__triangle/kaufman__triangle.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/kaufman/__triangle/kaufman__triangle.css b/sprint-1__startkit/blocks/kaufman/__triangle/kaufman__triangle.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/kaufman/__triangle/kaufman__triangle.css	
+@@ -0,0 +1,9 @@
++.kaufman__triangle {
++  height: 877px;
++  width: 877px;
++  position: absolute;
++  top: 0;
++  right: -210px;
++  transform-origin: 511px 376px;
++  animation: triangle-rotation 20s linear infinite;
++}
+Index: sprint-1__startkit/blocks/kaufman/other/section-subtitle_theme_dark.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/kaufman/other/section-subtitle_theme_dark.css b/sprint-1__startkit/blocks/kaufman/other/section-subtitle_theme_dark.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/kaufman/other/section-subtitle_theme_dark.css	
+@@ -0,0 +1,4 @@
++.section-subtitle_theme_dark {
++  color: white;
++  z-index: 1;
++}
+Index: sprint-1__startkit/blocks/kaufman/other/section-title_theme_dark.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/kaufman/other/section-title_theme_dark.css b/sprint-1__startkit/blocks/kaufman/other/section-title_theme_dark.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/kaufman/other/section-title_theme_dark.css	
+@@ -0,0 +1,4 @@
++.section-title_theme_dark {
++  color: white;
++  z-index: 1;
++}
+Index: sprint-1__startkit/blocks/kaufman/other/table_theme_dark.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/kaufman/other/table_theme_dark.css b/sprint-1__startkit/blocks/kaufman/other/table_theme_dark.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/kaufman/other/table_theme_dark.css	
+@@ -0,0 +1,8 @@
++.table_theme_dark .table__cell {
++  min-width: 200px;
++  width: 200px;
++  color: white;
++  margin-top: 80px;
++  margin-right: 0;
++  z-index: 1;
++}
+Index: sprint-1__startkit/blocks/feynman/__link/feynman__link.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/feynman/__link/feynman__link.css b/sprint-1__startkit/blocks/feynman/__link/feynman__link.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/feynman/__link/feynman__link.css	
+@@ -0,0 +1,9 @@
++.feynman__link {
++  position: absolute;
++  top: 50%;
++  right: 48px;
++  line-height: 51px;
++  font-size: 36px;
++  text-decoration: none;
++  margin:0
++}
+Index: sprint-1__startkit/blocks/feynman/__subtitle/feynman__subtitle.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/feynman/__subtitle/feynman__subtitle.css b/sprint-1__startkit/blocks/feynman/__subtitle/feynman__subtitle.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/feynman/__subtitle/feynman__subtitle.css	
+@@ -0,0 +1,5 @@
++.feynman__subtitle {
++  margin-top: 70px;
++  line-height: 51px;
++  font-size: 36px;
++}
+Index: sprint-1__startkit/blocks/feynman/__title/feynman__title.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/feynman/__title/feynman__title.css b/sprint-1__startkit/blocks/feynman/__title/feynman__title.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/feynman/__title/feynman__title.css	
+@@ -0,0 +1,9 @@
++.feynman__title {
++  width: 648px;
++  line-height: 1.15;
++  font-size: 120px;
++  font-weight: 600;
++  text-align: center;
++  margin: 0;
++  padding-top: 100px
++}
+Index: sprint-1__startkit/blocks/feynman/feynman.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/feynman/feynman.css b/sprint-1__startkit/blocks/feynman/feynman.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/feynman/feynman.css	
+@@ -0,0 +1,12 @@
++.feynman {
++  display: flex;
++  align-items: center;
++  flex-direction: column;
++  height: 890px;
++  position: relative;
++  background-image : url("../images/feynman.png");
++  background-repeat: no-repeat;
++  background-position: bottom left;
++  background-size: 867px 637px;
++  background-color: #f2f2f2
++}
+Index: sprint-1__startkit/blocks/kaufman/table/__text/table__text.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/kaufman/table/__text/table__text.css b/sprint-1__startkit/blocks/kaufman/table/__text/table__text.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/kaufman/table/__text/table__text.css	
+@@ -0,0 +1,6 @@
++.table__text {
++  margin-top: 20px;
++  line-height: 1.2;
++  font-size: 18px;
++  font-weight: normal;
++}
+Index: sprint-1__startkit/blocks/kaufman/table/__heading/table__heading.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/kaufman/table/__heading/table__heading.css b/sprint-1__startkit/blocks/kaufman/table/__heading/table__heading.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/kaufman/table/__heading/table__heading.css	
+@@ -0,0 +1,6 @@
++.table__heading {
++  margin: 0;
++  line-height: 1.15;
++  font-size: 24px;
++  font-weight: 600;
++}
+Index: sprint-1__startkit/blocks/kaufman/section/section-title.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/kaufman/section/section-title.css b/sprint-1__startkit/blocks/kaufman/section/section-title.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/kaufman/section/section-title.css	
+@@ -0,0 +1,7 @@
++.section-title {
++  margin:0;
++  line-height: 1.15;
++  font-size: 60px;
++  font-weight: 600;
++  text-align: center;
++}
+Index: sprint-1__startkit/.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># http://editorconfig.org\r\n\r\n\r\n# A special property that should be specified at the top of the file outside of\r\n\r\n# any sections. Set to true to stop .editor config file search on current file\r\n\r\nroot = true\r\n\r\n[*]\r\n# Indentation style\r\n\r\n# Possible values - tab, space\r\n\r\nindent_style = space\r\n\r\n# Indentation size in single-spaced characters\r\n\r\n# Possible values - an integer, tab\r\n\r\nindent_size = 2\r\n\r\n# Line ending file format\r\n\r\n# Possible values - lf, crlf, cr\r\n\r\nend_of_line = lf\r\n\r\n# File character encoding\r\n\r\n# Possible values - latin1, utf-8, utf-16be, utf-16le\r\n\r\ncharset = utf-8\r\n\r\n# Denotes whether to trim whitespace at the end of lines\r\n\r\n# Possible values - true, false\r\n\r\ntrim_trailing_whitespace = true\r\n\r\n# Denotes whether file should end with a newline\r\n\r\n# Possible values - true, false\r\n\r\ninsert_final_newline = true
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sprint-1__startkit/.editorconfig b/sprint-1__startkit/.editorconfig
+--- a/sprint-1__startkit/.editorconfig	
++++ b/sprint-1__startkit/.editorconfig	
+@@ -18,7 +18,7 @@
+ 
+ # Possible values - an integer, tab
+ 
+-indent_size = 2
++indent_size = 4
+ 
+ # Line ending file format
+ 
+Index: sprint-1__startkit/blocks/kaufman/section/section-subtitle.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/kaufman/section/section-subtitle.css b/sprint-1__startkit/blocks/kaufman/section/section-subtitle.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/kaufman/section/section-subtitle.css	
+@@ -0,0 +1,8 @@
++.section-subtitle {
++  margin:0;
++  line-height: 34px;
++  font-size: 24px;
++  font-weight: normal;
++  margin: 20px 0 0 0;
++  text-align: center;
++}
+Index: sprint-1__startkit/blocks/kaufman/table/__cell/table__cell.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/kaufman/table/__cell/table__cell.css b/sprint-1__startkit/blocks/kaufman/table/__cell/table__cell.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/kaufman/table/__cell/table__cell.css	
+@@ -0,0 +1,6 @@
++.table__cell {
++  width: 250px;
++  min-width: 250px;
++  list-style-type: none;
++  margin-top: 60px;
++}
+Index: sprint-1__startkit/blocks/kaufman/table/table.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/kaufman/table/table.css b/sprint-1__startkit/blocks/kaufman/table/table.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/kaufman/table/table.css	
+@@ -0,0 +1,6 @@
++.table {
++  width: 1100px;
++  display: flex;
++  justify-content: space-between;
++  flex-wrap: wrap;
++}
+Index: sprint-1__startkit/blocks/digits/digits.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/digits/digits.css b/sprint-1__startkit/blocks/digits/digits.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/digits/digits.css	
+@@ -0,0 +1,7 @@
++.digits {
++  display: flex;
++  margin-top: 100px;
++  margin-bottom: 100px;
++  align-items: center;
++  flex-direction: column;
++}
+Index: sprint-1__startkit/blocks/description/two-columns/__span-accent/two-columns__span-accent.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/description/two-columns/__span-accent/two-columns__span-accent.css b/sprint-1__startkit/blocks/description/two-columns/__span-accent/two-columns__span-accent.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/description/two-columns/__span-accent/two-columns__span-accent.css	
+@@ -0,0 +1,4 @@
++.two-columns__span-accent {
++  margin: 0;
++  font-weight: bold;
++}
+Index: sprint-1__startkit/blocks/description/two-columns/__paragraph/two-columns__paragraph.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/description/two-columns/__paragraph/two-columns__paragraph.css b/sprint-1__startkit/blocks/description/two-columns/__paragraph/two-columns__paragraph.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/description/two-columns/__paragraph/two-columns__paragraph.css	
+@@ -0,0 +1,10 @@
++.two-columns__paragraph {
++  margin-bottom: 30px;
++  line-height: 34px;
++  font-size: 24px;
++  font-weight:normal;
++}
++
++.two-columns__paragraph:nth-child(last) {
++  margin: 0;
++}
+Index: sprint-1__startkit/blocks/description/two-columns/__main-text/two-columns__main-text.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/description/two-columns/__main-text/two-columns__main-text.css b/sprint-1__startkit/blocks/description/two-columns/__main-text/two-columns__main-text.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/description/two-columns/__main-text/two-columns__main-text.css	
+@@ -0,0 +1,5 @@
++.two-columns__main-text {
++  width: 80%;
++  min-width: 784px;
++  padding-left: 100px;
++}
+Index: sprint-1__startkit/blocks/description/two-columns/two-columns.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/description/two-columns/two-columns.css b/sprint-1__startkit/blocks/description/two-columns/two-columns.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/description/two-columns/two-columns.css	
+@@ -0,0 +1,6 @@
++.two-columns {
++  display: flex;
++  width: 80%;
++  margin: 100px auto;
++  justify-content: space-between;
++}
+Index: sprint-1__startkit/blocks/description/two-columns/__brief/two-columns__brief.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/description/two-columns/__brief/two-columns__brief.css b/sprint-1__startkit/blocks/description/two-columns/__brief/two-columns__brief.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/description/two-columns/__brief/two-columns__brief.css	
+@@ -0,0 +1,7 @@
++.two-columns__brief {
++  width: 175px;
++  line-height: 1.2;
++  color: #2F80ED;
++  font-size: 18px;
++  font-weight: normal;
++}
+Index: sprint-1__startkit/blocks/description/description.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/description/description.css b/sprint-1__startkit/blocks/description/description.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/description/description.css	
+@@ -0,0 +1,3 @@
++.description {
++  padding: 100px 0;
++}
+Index: sprint-1__startkit/blocks/header/__link/header__link.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/header/__link/header__link.css b/sprint-1__startkit/blocks/header/__link/header__link.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/header/__link/header__link.css	
+@@ -0,0 +1,9 @@
++.header__link {
++  text-decoration: none;
++  color: #2F80ED;
++  opacity: 1;
++  transition: opacity .2s ease;
++}
++.header__link:hover {
++  opacity: .5;
++}
+Index: sprint-1__startkit/blocks/header/__subtitle/header__subtitle.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/header/__subtitle/header__subtitle.css b/sprint-1__startkit/blocks/header/__subtitle/header__subtitle.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/header/__subtitle/header__subtitle.css	
+@@ -0,0 +1,8 @@
++.header__subtitle {
++  position: absolute;
++  width: 388px;
++  font-size: 18px;
++  height: 25px;
++  bottom: 30px;
++  left: 64px
++}
+Index: sprint-1__startkit/blocks/header/__main_logo/header__main_logo.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/header/__main_logo/header__main_logo.css b/sprint-1__startkit/blocks/header/__main_logo/header__main_logo.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/header/__main_logo/header__main_logo.css	
+@@ -0,0 +1,8 @@
++.header__main_logo {
++  position: absolute;
++  width:765px;
++  height: 608px;
++  bottom: 0;
++  right: 0;
++  z-index:1
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"d8b11f88-5c7f-4460-aac0-6ec3cc8db24a\" name=\"Changes\" comment=\"Project module_1\">\r\n      <change afterPath=\"$PROJECT_DIR$/sprint_2_files/texts_sprint-2.txt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../first-project\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../first-project\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/._sprint-1__startkit\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._.DS_Store\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._.editorconfig\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._images\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._index.html\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._styles\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._texts.md\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._.DS_Store\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._feynman.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._kaufman-triangle.svg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._logo_place_footer.svg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._logo_place_header.svg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._tiktok_color_white.svg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._two_again.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._vk_color_white.svg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._youtube_color_white.svg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/styles/._normalize.css\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/__MACOSX/sprint-1__startkit/styles/._style.css\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/sprint-1__startkit/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/sprint-1__startkit/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/sprint-1__startkit/styles/style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/sprint-1__startkit/styles/style.css\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$/..\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"liniker06\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"ef97a56c-8618-485b-b8b4-53bee4ca30dc\" />\r\n        <option name=\"url\" value=\"git@github.com:/liniker06/Yandex_Pract.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"jar://$APPLICATION_HOME_DIR$/lib/app.jar!/resources/html5-schema/html5/phrase.rnc\" root0=\"SKIP_INSPECTION\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2nvdthsnVIpKUI7KW3lUioZJrr2\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"second__sprint\",\r\n    \"last_opened_file_path\": \"C:/Users/Almaz/dev/sprint-1__startkit (1)\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Almaz\\dev\\sprint-1__startkit (1)\\sprint-1__startkit\" />\r\n      <recent name=\"C:\\Users\\Almaz\\dev\\sprint-1__startkit (1)\\sprint-1__startkit\\images\" />\r\n      <recent name=\"C:\\Users\\Almaz\\dev\\sprint-1__startkit (1)\\sprint_2_files\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-c69650fc56ca-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15619.17\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"d8b11f88-5c7f-4460-aac0-6ec3cc8db24a\" name=\"Changes\" comment=\"\" />\r\n      <created>1729857699903</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1729857699903</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Project module_1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735032899771</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735032899771</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Project module_1\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Project module_1\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,35 +4,82 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="d8b11f88-5c7f-4460-aac0-6ec3cc8db24a" name="Changes" comment="Project module_1">
+-      <change afterPath="$PROJECT_DIR$/sprint_2_files/texts_sprint-2.txt" afterDir="false" />
++    <list default="true" id="d8b11f88-5c7f-4460-aac0-6ec3cc8db24a" name="Changes" comment="Project module_2">
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/description/description.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/description/two-columns/__brief/two-columns__brief.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/description/two-columns/__main-text/two-columns__main-text.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/description/two-columns/__paragraph/two-columns__paragraph.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/description/two-columns/__span-accent/two-columns__span-accent.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/description/two-columns/two-columns.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/digits/digits.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/feynman/__link/feynman__link.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/feynman/__subtitle/feynman__subtitle.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/feynman/__title/feynman__title.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/feynman/feynman.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/footer/__author/footer__author.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/footer/__column/__column-heading/footer__column-heading.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/footer/__column/__column-link/footer__column-link.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/footer/__column/__column-links/footer__column-links.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/footer/__column/__column_content_copyright/footer__column_content_copyright.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/footer/__column/footer__column.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/footer/__columns/footer__columns.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/footer/__social-icon/footer__social-icon.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/footer/footer.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/header/__link/header__link.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/header/__main_logo/header__main_logo.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/header/__square-pic/header__square-pic.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/header/__subtitle/header__subtitle.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/header/h1__header/h1__header.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/header/header.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/header/logo/__place_header/logo__place_header.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/kaufman/__triangle/kaufman__triangle.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/kaufman/kaufman.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/kaufman/other/section-subtitle_theme_dark.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/kaufman/other/section-title_theme_dark.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/kaufman/other/table_theme_dark.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/kaufman/section/section-subtitle.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/kaufman/section/section-title.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/kaufman/table/__cell/table__cell.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/kaufman/table/__cell/table__cell_theme_dark.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/kaufman/table/__heading/table__heading.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/kaufman/table/__text/table__text.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/kaufman/table/table.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/khan/__autor/khan__autor.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/khan/__book-container/khan__book-container.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/khan/__book-pic/khan__book-pic.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/khan/__buy-link/khan__buy-link.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/khan/__container/khan__container.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/khan/__quote-autor-subline/khan__quote-autor-subline.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/khan/__quote-autor/khan__quote-autor.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/khan/__quote/khan__quote.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/khan/__title/khan__title.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/khan/khan.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/page.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/resources/__logo/resources__logo.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/resources/resources.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/rotation/rotation.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/techniques/__cards/__description/techniques__cards__description.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/techniques/__cards/__image/techniques__cards__image.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/techniques/__cards/__item/techniques__cards__item.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/techniques/__cards/__title/techniques__cards__title.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/techniques/__cards/technoques__cards.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/techniques/techniques.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/video/__iframes/video__iframes.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/video/video.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/../first-project" beforeDir="false" afterPath="$PROJECT_DIR$/../first-project" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/._sprint-1__startkit" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._.DS_Store" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._.editorconfig" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._images" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._index.html" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._styles" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._texts.md" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._.DS_Store" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._feynman.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._kaufman-triangle.svg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._logo_place_footer.svg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._logo_place_header.svg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._tiktok_color_white.svg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._two_again.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._vk_color_white.svg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._youtube_color_white.svg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/styles/._normalize.css" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/styles/._style.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/sprint-1__startkit/.editorconfig" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/sprint-1__startkit/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sprint-1__startkit/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sprint-1__startkit/styles/style.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/styles/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/sprint-1__startkit/blocks/normalize.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/styles/style.css" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="EditorConfigPreviewManager">
++    <editorConfig file="$PROJECT_DIR$/sprint-1__startkit/.editorconfig" previewFile="$PROJECT_DIR$/sprint-1__startkit/index.html" />
+   </component>
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+@@ -44,17 +91,17 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$/.." value="master" />
++        <entry key="$PROJECT_DIR$/.." value="second_sprint" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+   </component>
+-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+-  "lastFilter": {
+-    "state": "OPEN",
+-    "assignee": "liniker06"
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;liniker06&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="GithubPullRequestsUISettings">
+     <option name="selectedUrlAndAccountId">
+       <UrlAndAccount>
+@@ -77,20 +124,22 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "second__sprint",
+-    "last_opened_file_path": "C:/Users/Almaz/dev/sprint-1__startkit (1)",
+-    "settings.editor.selected.configurable": "preferences.pluginManager"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;second__sprint2&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/Almaz/dev/sprint-1__startkit (1)&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+-      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)\sprint-1__startkit" />
+-      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)\sprint-1__startkit\images" />
+-      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)\sprint_2_files" />
++      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)\sprint-1__startkit\blocks" />
++      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)\sprint-1__startkit\blocks\description\two-columns" />
++      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)\sprint-1__startkit\blocks\footer\__column" />
++      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)\sprint-1__startkit\blocks\techniques\__cards\__title" />
++      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)\sprint-1__startkit\blocks\techniques\__cards\__description" />
+     </key>
+   </component>
+   <component name="SharedIndexes">
+@@ -117,7 +166,23 @@
+       <option name="project" value="LOCAL" />
+       <updated>1735032899771</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Project module_1">
++      <option name="closed" value="true" />
++      <created>1737485397100</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1737485397100</updated>
++    </task>
++    <task id="LOCAL-00003" summary="Project module_2">
++      <option name="closed" value="true" />
++      <created>1737485443394</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1737485443394</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -133,6 +198,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Project module_1" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Project module_1" />
++    <MESSAGE value="Project module_2" />
++    <option name="LAST_COMMIT_MESSAGE" value="Project module_2" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: sprint-1__startkit/blocks/header/__square-pic/header__square-pic.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/header/__square-pic/header__square-pic.css b/sprint-1__startkit/blocks/header/__square-pic/header__square-pic.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/header/__square-pic/header__square-pic.css	
+@@ -0,0 +1,8 @@
++.header__square-pic {
++  position: absolute;
++  width: 568px;
++  height: 568px;
++  background-color: #2f80ed;
++  right: 0;
++  top: 64px;
++}
+Index: sprint-1__startkit/blocks/header/h1__header/h1__header.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/header/h1__header/h1__header.css b/sprint-1__startkit/blocks/header/h1__header/h1__header.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/header/h1__header/h1__header.css	
+@@ -0,0 +1,7 @@
++.h1__header {
++  width: 730px;
++  margin: 0 0 0 64px;
++  line-height: 96px;
++  font-size: 102px;
++  z-index: 2;
++}
+Index: sprint-1__startkit/blocks/kaufman/table/__cell/table__cell_theme_dark.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/kaufman/table/__cell/table__cell_theme_dark.css b/sprint-1__startkit/blocks/kaufman/table/__cell/table__cell_theme_dark.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/kaufman/table/__cell/table__cell_theme_dark.css	
+@@ -0,0 +1,6 @@
++.table__cell_theme_dark {
++  width: 200px;
++  color: white;
++  margin-right: 0;
++  margin-top: 80px;
++}
+Index: sprint-1__startkit/blocks/header/logo/__place_header/logo__place_header.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/header/logo/__place_header/logo__place_header.css b/sprint-1__startkit/blocks/header/logo/__place_header/logo__place_header.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/header/logo/__place_header/logo__place_header.css	
+@@ -0,0 +1,8 @@
++.logo__place_header {
++  position: absolute;
++  width: 228px;
++  height: 32px;
++  left: 64px;
++  top: 30px;
++  order: 1
++}
+Index: sprint-1__startkit/blocks/page.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/page.css b/sprint-1__startkit/blocks/page.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/page.css	
+@@ -0,0 +1,6 @@
++.page {
++  min-width: 1100px;
++  max-width: 1600px;
++  margin: 0 auto;
++  font-family: 'Helvetica Neue', Arial, sans-serif;
++}
+Index: sprint-1__startkit/blocks/header/header.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/header/header.css b/sprint-1__startkit/blocks/header/header.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/header/header.css	
+@@ -0,0 +1,11 @@
++.header {
++  display: flex;
++  align-items: center;
++  height: 100vh;
++  min-height: 600px;
++  max-height: 756px;
++  position: relative;
++  background-color: #F2F2F2;
++  overflow: hidden;
++
++}
+Index: sprint-1__startkit/blocks/rotation/rotation.css
+===================================================================
+diff --git a/sprint-1__startkit/blocks/rotation/rotation.css b/sprint-1__startkit/blocks/rotation/rotation.css
+new file mode 100644
+--- /dev/null	
++++ b/sprint-1__startkit/blocks/rotation/rotation.css	
+@@ -0,0 +1,9 @@
++@keyframes rotate {
++	from {
++		transform: rotate(360deg);
++	}
++}
++
++.rotation {
++	animation: rotate 20s linear infinite;
++}
+diff --git a/sprint-1__startkit/styles/normalize.css b/sprint-1__startkit/blocks/normalize.css
+rename from sprint-1__startkit/styles/normalize.css
+rename to sprint-1__startkit/blocks/normalize.css
