@@ -1,0 +1,9 @@
+.techniques__cards__item {
+  width:240px;
+  margin-top: 60px;
+  margin-right: 100px;
+}
+
+.techniques__cards__item:nth-child(3n) {
+    margin-right: 0;
+}

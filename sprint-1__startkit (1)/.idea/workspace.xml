@@ -1,38 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8b11f88-5c7f-4460-aac0-6ec3cc8db24a" name="Changes" comment="Project module_1">
-      <change afterPath="$PROJECT_DIR$/sprint_2_files/texts_sprint-2.txt" afterDir="false" />
+    <list default="true" id="d8b11f88-5c7f-4460-aac0-6ec3cc8db24a" name="Changes" comment="sorted styles and priject is finished">
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sprint-1__startkit (1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/description/description.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/description/two-columns/__brief/two-columns__brief.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/description/two-columns/__main-text/two-columns__main-text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/description/two-columns/__paragraph/two-columns__paragraph.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/description/two-columns/__span-accent/two-columns__span-accent.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/description/two-columns/two-columns.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/digits/digits.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/feynman/__link/feynman__link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/feynman/__subtitle/feynman__subtitle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/feynman/__title/feynman__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/feynman/feynman.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__author/footer__author.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__column/__column-heading/footer__column-heading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__column/__column-link/footer__column-link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__column/__column-links/footer__column-links.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__column/__column_content_copyright/footer__column_content_copyright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__column/footer__column.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__columns/footer__columns.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__logo/footer__logo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__social-icon/footer__social-icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/header/__link/header__link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/header/__main_logo/header__main_logo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/header/__square-pic/header__square-pic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/header/__subtitle/header__subtitle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/header/h1__header/h1__header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/header/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/header/logo/__place_header/logo__place_header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/kaufman/__triangle/kaufman__triangle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/kaufman/kaufman.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/kaufman/other/section-subtitle_theme_dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/kaufman/other/section-title_theme_dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/kaufman/other/table_theme_dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/kaufman/section/section-subtitle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/kaufman/section/section-title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/kaufman/table/__cell/table__cell.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/kaufman/table/__cell/table__cell_theme_dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/kaufman/table/__heading/table__heading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/kaufman/table/__text/table__text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/kaufman/table/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/khan/__autor/khan__autor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/khan/__book-container/khan__book-container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/khan/__book-pic/khan__book-pic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/khan/__buy-link/khan__buy-link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/khan/__container/khan__container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/khan/__quote-autor-subline/khan__quote-autor-subline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/khan/__quote-autor/khan__quote-autor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/khan/__quote/khan__quote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/khan/__title/khan__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/khan/khan.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/resources/__logo-zone/resources__logo-zone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/resources/__logo/resources__logo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/resources/resources.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/rotation/rotation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/techniques/__cards/__description/techniques__cards__description.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/techniques/__cards/__image/techniques__cards__image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/techniques/__cards/__item/techniques__cards__item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/techniques/__cards/__title/techniques__cards__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/techniques/__cards/techniques__cards.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/techniques/techniques.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/video/__iframes/video__iframes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/video/video.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../first-project" beforeDir="false" afterPath="$PROJECT_DIR$/../first-project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/._sprint-1__startkit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._styles" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/._texts.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._feynman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._kaufman-triangle.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._logo_place_footer.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._logo_place_header.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._tiktok_color_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._two_again.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._vk_color_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/images/._youtube_color_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/styles/._normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/sprint-1__startkit/styles/._style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sprint-1__startkit/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sprint-1__startkit/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/images/cards-attention.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/cards-attention.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/images/cards-competence.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/cards-competence.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/images/cards-interliving.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/cards-interliving.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/images/cards-question.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/cards-question.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/images/cards-recall.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/cards-recall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/images/feynman.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/feynman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/images/kaufman-triangle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/kaufman-triangle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/images/khan-book.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/khan-book.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/images/logo_place_footer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo_place_footer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/images/logo_place_header.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo_place_header.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/images/tiktok_color_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/tiktok_color_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/images/two_again.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/two_again.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/images/vk_color_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/vk_color_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/images/youtube_color_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/youtube_color_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/logo/resources-arzamas.svg" beforeDir="false" afterPath="$PROJECT_DIR$/logo/resources-arzamas.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/logo/resources-n1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/logo/resources-n1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/logo/resources-polka.svg" beforeDir="false" afterPath="$PROJECT_DIR$/logo/resources-polka.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/logo/resources-strelka.svg" beforeDir="false" afterPath="$PROJECT_DIR$/logo/resources-strelka.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/styles/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint-1__startkit/texts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint_2_files/texts_sprint-2.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/sprint-1__startkit/.editorconfig" previewFile="$PROJECT_DIR$/sprint-1__startkit/index.html" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,30 +117,36 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="master" />
+        <entry key="$PROJECT_DIR$/.." value="second_sprint" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "liniker06"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="ef97a56c-8618-485b-b8b4-53bee4ca30dc" />
-        <option name="url" value="git@github.com:/liniker06/Yandex_Pract.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:/liniker06/Yandex_Pract.git&quot;,
+    &quot;accountId&quot;: &quot;ef97a56c-8618-485b-b8b4-53bee4ca30dc&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$APPLICATION_HOME_DIR$/lib/app.jar!/resources/html5-schema/html5/phrase.rnc" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -77,26 +156,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "second__sprint",
-    "last_opened_file_path": "C:/Users/Almaz/dev/sprint-1__startkit (1)",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;second__sprint2&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Almaz/dev/sprint-1__startkit (1)&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;CSS&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\Almaz\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="18ebde8b-948c-44b5-880b-acff43e5e1ec" reportId="sprint-1__startkit (1)/qodana/2025-01-27" />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)\sprint-1__startkit" />
-      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)\sprint-1__startkit\images" />
-      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)\sprint_2_files" />
+      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)" />
+      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)\sprint-1__startkit\blocks" />
+      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)\sprint-1__startkit\blocks\description\two-columns" />
+      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)\sprint-1__startkit\blocks\footer\__column" />
+      <recent name="C:\Users\Almaz\dev\sprint-1__startkit (1)\sprint-1__startkit\blocks\techniques\__cards\__title" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-c69650fc56ca-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15619.17" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
@@ -108,6 +212,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729857699903</updated>
+      <workItem from="1737982059878" duration="1009000" />
     </task>
     <task id="LOCAL-00001" summary="Project module_1">
       <option name="closed" value="true" />
@@ -117,8 +222,27 @@
       <option name="project" value="LOCAL" />
       <updated>1735032899771</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Project module_1">
+      <option name="closed" value="true" />
+      <created>1737485397100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737485397100</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Project module_2">
+      <option name="closed" value="true" />
+      <created>1737485443394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737485443394</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -133,6 +257,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project module_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project module_1" />
+    <MESSAGE value="Project module_2" />
+    <MESSAGE value="sorted styles and priject is finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="sorted styles and priject is finished" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>
